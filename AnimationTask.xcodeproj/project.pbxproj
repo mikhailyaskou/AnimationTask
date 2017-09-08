@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		9815BD2B1F45806900FA9397 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9815BD2A1F45806900FA9397 /* main.m */; };
 		9815BD2E1F45806900FA9397 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9815BD2D1F45806900FA9397 /* AppDelegate.m */; };
-		9815BD311F45806900FA9397 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9815BD301F45806900FA9397 /* ViewController.m */; };
 		9815BD341F45806900FA9397 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9815BD321F45806900FA9397 /* Main.storyboard */; };
 		9815BD361F45806900FA9397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9815BD351F45806900FA9397 /* Assets.xcassets */; };
 		9815BD391F45806900FA9397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9815BD371F45806900FA9397 /* LaunchScreen.storyboard */; };
+		9815BD421F45834A00FA9397 /* YMAAnimation1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9815BD411F45834A00FA9397 /* YMAAnimation1VC.m */; };
+		9815BD451F4590EC00FA9397 /* YMAAnimation2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9815BD441F4590EC00FA9397 /* YMAAnimation2VC.m */; };
+		9815BD481F4590FB00FA9397 /* YMAAnimation3VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9815BD471F4590FB00FA9397 /* YMAAnimation3VC.m */; };
+		9815BD511F45A02300FA9397 /* YMABasicVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9815BD501F45A02300FA9397 /* YMABasicVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,18 @@
 		9815BD2A1F45806900FA9397 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9815BD2C1F45806900FA9397 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9815BD2D1F45806900FA9397 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9815BD2F1F45806900FA9397 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9815BD301F45806900FA9397 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9815BD331F45806900FA9397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9815BD351F45806900FA9397 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9815BD381F45806900FA9397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9815BD3A1F45806900FA9397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9815BD401F45834A00FA9397 /* YMAAnimation1VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMAAnimation1VC.h; sourceTree = "<group>"; };
+		9815BD411F45834A00FA9397 /* YMAAnimation1VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMAAnimation1VC.m; sourceTree = "<group>"; };
+		9815BD431F4590EC00FA9397 /* YMAAnimation2VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMAAnimation2VC.h; sourceTree = "<group>"; };
+		9815BD441F4590EC00FA9397 /* YMAAnimation2VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMAAnimation2VC.m; sourceTree = "<group>"; };
+		9815BD461F4590FB00FA9397 /* YMAAnimation3VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMAAnimation3VC.h; sourceTree = "<group>"; };
+		9815BD471F4590FB00FA9397 /* YMAAnimation3VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMAAnimation3VC.m; sourceTree = "<group>"; };
+		9815BD4F1F45A02300FA9397 /* YMABasicVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMABasicVC.h; sourceTree = "<group>"; };
+		9815BD501F45A02300FA9397 /* YMABasicVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMABasicVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +67,15 @@
 		9815BD281F45806900FA9397 /* AnimationTask */ = {
 			isa = PBXGroup;
 			children = (
-				9815BD2C1F45806900FA9397 /* AppDelegate.h */,
-				9815BD2D1F45806900FA9397 /* AppDelegate.m */,
-				9815BD2F1F45806900FA9397 /* ViewController.h */,
-				9815BD301F45806900FA9397 /* ViewController.m */,
 				9815BD321F45806900FA9397 /* Main.storyboard */,
-				9815BD351F45806900FA9397 /* Assets.xcassets */,
-				9815BD371F45806900FA9397 /* LaunchScreen.storyboard */,
-				9815BD3A1F45806900FA9397 /* Info.plist */,
+				9815BD4F1F45A02300FA9397 /* YMABasicVC.h */,
+				9815BD501F45A02300FA9397 /* YMABasicVC.m */,
+				9815BD431F4590EC00FA9397 /* YMAAnimation2VC.h */,
+				9815BD441F4590EC00FA9397 /* YMAAnimation2VC.m */,
+				9815BD461F4590FB00FA9397 /* YMAAnimation3VC.h */,
+				9815BD471F4590FB00FA9397 /* YMAAnimation3VC.m */,
+				9815BD401F45834A00FA9397 /* YMAAnimation1VC.h */,
+				9815BD411F45834A00FA9397 /* YMAAnimation1VC.m */,
 				9815BD291F45806900FA9397 /* Supporting Files */,
 			);
 			path = AnimationTask;
@@ -74,6 +84,11 @@
 		9815BD291F45806900FA9397 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9815BD2C1F45806900FA9397 /* AppDelegate.h */,
+				9815BD2D1F45806900FA9397 /* AppDelegate.m */,
+				9815BD351F45806900FA9397 /* Assets.xcassets */,
+				9815BD371F45806900FA9397 /* LaunchScreen.storyboard */,
+				9815BD3A1F45806900FA9397 /* Info.plist */,
 				9815BD2A1F45806900FA9397 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -105,6 +120,7 @@
 		9815BD1E1F45806900FA9397 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YMA;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Mikhail Yaskou";
 				TargetAttributes = {
@@ -151,9 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9815BD311F45806900FA9397 /* ViewController.m in Sources */,
+				9815BD421F45834A00FA9397 /* YMAAnimation1VC.m in Sources */,
+				9815BD451F4590EC00FA9397 /* YMAAnimation2VC.m in Sources */,
 				9815BD2E1F45806900FA9397 /* AppDelegate.m in Sources */,
+				9815BD511F45A02300FA9397 /* YMABasicVC.m in Sources */,
 				9815BD2B1F45806900FA9397 /* main.m in Sources */,
+				9815BD481F4590FB00FA9397 /* YMAAnimation3VC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
