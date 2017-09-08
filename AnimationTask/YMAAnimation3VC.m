@@ -9,7 +9,6 @@
 #import "YMAAnimation3VC.h"
 
 @interface YMAAnimation3VC ()
-@property (weak, nonatomic) IBOutlet UIButton *doAnimationButton;
 @property (weak, nonatomic) IBOutlet UILabel *animatedLabel;
 @property (strong, nonatomic) UIDynamicAnimator* animator;
 @property (strong, nonatomic) UIGravityBehavior* gravity;

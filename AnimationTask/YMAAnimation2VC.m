@@ -10,14 +10,13 @@
 
 @interface YMAAnimation2VC ()
 
-@property (weak, nonatomic) IBOutlet UIButton *doAnimationButton;
 @property (weak, nonatomic) IBOutlet UILabel *animatedLabel;
 
 @end
 
 @implementation YMAAnimation2VC
 
-- (IBAction)doAnimationTapped:(id)sender {
+- (IBAction)makeAnimationButtonTapped:(id)sender {
     [UIView animateWithDuration:0.5
                           delay:0
                         options:UIViewAnimationOptionCurveLinear
@@ -25,7 +24,7 @@
                          self.animatedLabel.transform = CGAffineTransformRotate(self.animatedLabel.transform, M_PI / 2);
                      }
                      completion:^(BOOL finished) {
-                         [self doAnimationTapped: nil];
+                         [self makeAnimationButtonTapped: nil];
                      }];
     
 }

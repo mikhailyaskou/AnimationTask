@@ -9,14 +9,13 @@
 #import "YMAAnimation1VC.h"
 
 @interface YMAAnimation1VC ()
-@property (weak, nonatomic) IBOutlet UIButton *doAnnimationButton;
 @property (weak, nonatomic) IBOutlet UILabel *animatedLabel;
 
 @end
 
 @implementation YMAAnimation1VC
 
-- (IBAction)doAnimationTapped:(id)sender {
+- (IBAction)makeAnimationButtonTapped:(id)sender {
     [UIView animateWithDuration:1.0
                           delay:0.0
                         options: UIViewAnimationOptionAutoreverse

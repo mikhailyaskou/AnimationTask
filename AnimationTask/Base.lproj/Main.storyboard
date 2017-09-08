@@ -71,7 +71,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="GO"/>
                                 <connections>
-                                    <action selector="IBActiondoAnimationTappedidsenderdoAnimationTapped:" destination="MPO-1e-beF" eventType="touchUpInside" id="c7C-Z5-Kzt"/>
+                                    <action selector="IBActiondoAnimationTappedidsenderdoAnimationTapped:" destination="MPO-1e-beF" eventType="touchUpInside" id="26q-E8-Ez1"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Animate Me!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pdH-RM-BHd">
@@ -86,51 +86,11 @@
                     </view>
                     <connections>
                         <outlet property="animatedLabel" destination="pdH-RM-BHd" id="ygX-kt-eWy"/>
-                        <outlet property="doAnimationButton" destination="Ypc-Wj-7TI" id="6xT-WN-JOy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QcS-cz-2HX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1521" y="939"/>
-        </scene>
-        <!--Animation4VC-->
-        <scene sceneID="VSx-qt-gI6">
-            <objects>
-                <viewController id="3DD-g1-R1a" customClass="YMAAnimation4VC" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ykQ-Lp-yro"/>
-                        <viewControllerLayoutGuide type="bottom" id="xLt-dc-Msy"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="NLX-5a-p1E">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="std-Ti-R7P">
-                                <rect key="frame" x="17" y="151" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="GO"/>
-                                <connections>
-                                    <action selector="doAnimationTapped:" destination="3DD-g1-R1a" eventType="touchUpInside" id="qtp-MR-EC6"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Animate Me!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gv7-VE-9uj">
-                                <rect key="frame" x="16" y="269" width="343" height="107"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <outlet property="animatedLabel" destination="gv7-VE-9uj" id="zc6-fB-kfe"/>
-                        <outlet property="doAnimationButton" destination="std-Ti-R7P" id="uzh-ol-dVv"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7et-cW-UPD" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1560" y="1608"/>
         </scene>
         <!--Animation1VC-->
         <scene sceneID="Hmy-dB-m5M">
@@ -149,7 +109,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="GO"/>
                                 <connections>
-                                    <action selector="doAnimationTapped:" destination="wJd-rt-EvW" eventType="touchUpInside" id="7wn-sP-wpA"/>
+                                    <action selector="makeAnimationButtonTapped:" destination="wJd-rt-EvW" eventType="touchUpInside" id="T7m-hJ-2fF"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Animate Me!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sdb-1r-iDN">
@@ -164,7 +124,6 @@
                     </view>
                     <connections>
                         <outlet property="animatedLabel" destination="Sdb-1r-iDN" id="sPR-Qo-eJJ"/>
-                        <outlet property="doAnnimationButton" destination="gzN-gv-Xmb" id="agZ-IO-NFt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1Uw-Fi-XLw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -188,7 +147,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="GO"/>
                                 <connections>
-                                    <action selector="doAnimationTapped:" destination="fP5-JQ-QKr" eventType="touchUpInside" id="Twy-Ii-H7T"/>
+                                    <action selector="makeAnimationButtonTapped:" destination="fP5-JQ-QKr" eventType="touchUpInside" id="gBP-gn-9js"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Animate Me!!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NmM-yr-t1j">
@@ -203,7 +162,6 @@
                     </view>
                     <connections>
                         <outlet property="animatedLabel" destination="NmM-yr-t1j" id="A8Q-ap-a8l"/>
-                        <outlet property="doAnimationButton" destination="CUx-WI-bte" id="Ta1-1F-I0N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u7v-en-fJQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
